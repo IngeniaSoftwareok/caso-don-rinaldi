@@ -1,68 +1,59 @@
 # Don Rinaldi
 
-Identidad web y una aplicación de turnos desarrolladas para un cliente de barbería.
+Sitio web y aplicación de turnos para una barbería, con catálogo y administración.
 
 | Proyecto | Detalle |
 |---|---|
 | Tipo | Proyecto web para cliente |
-| Estado | Desarrollo para cliente. Sin puesta en producción. |
+| Estado | Sin puesta en producción |
 | Tecnologías | Next.js · TypeScript · API HTTP · SQLite / adaptador D1 |
 | Desarrollo | Agustin Crudo · Ingenia Software |
-| Código de la aplicación | Privado; este repositorio presenta el caso |
+| Código de la aplicación | Privado |
 
-![Portada del desarrollo web de Don Rinaldi](assets/01-inicio.webp)
+![Página de inicio de Don Rinaldi](assets/01-inicio.webp)
 
-**Material visual de demostración.** Las cifras de las pantallas no son resultados comerciales.
 
-## Recorrido visual
-
-[![Abrir el recorrido visual](assets/poster.webp)](assets/recorrido.mp4)
-
-[Ver o descargar el video MP4 · 21 s](assets/recorrido.mp4) · [Descripción del recorrido](docs/recorrido.md) · [Rótulos descriptivos VTT](assets/recorrido.es.vtt)
-
-El video recorre la portada, la propuesta y los contenidos/productos. No muestra iniciar sesión, reservar, pagar o administrar. Es un recorrido visual del desarrollo, no una demostración funcional completa de turnos.
 
 ## El problema
 
-Conectar la presentación del negocio con servicios, disponibilidad, reservas y herramientas de administración, manteniendo separadas la experiencia pública y las operaciones internas.
+El proyecto combinaba dos necesidades: presentar la identidad, los servicios y los productos de la barbería, y resolver la disponibilidad y reserva de turnos con herramientas de administración.
 
-## La solución
+## Qué desarrollé
 
-- Experiencia visual para presentar la marca, sus servicios y sus productos.
-- Frontend y API separados, con contratos y reglas compartidas.
-- Implementación de disponibilidad, reservas y herramientas administrativas en el código del proyecto.
+- Sitio público con presentación del negocio, servicios, cursos y productos.
+- Consulta de disponibilidad y reserva de turnos.
+- Herramientas administrativas para gestionar la operación.
+- Frontend y API con contratos y reglas compartidas.
 
-## Mi participación
+## Mi trabajo
 
-Desarrollo de la solución web bajo Ingenia Software, con programación y herramientas de IA durante la implementación y las iteraciones. El trabajo combina presentación visual con flujos de aplicación.
+Diseñé y desarrollé la solución para el cliente, desde la presentación visual del sitio hasta los flujos de turnos y administración.
 
-## Resultado y estado
+## Entrega del proyecto
 
-Se desarrolló la solución para el cliente y el proyecto quedó sin puesta en producción. El caso presenta la experiencia visual y la arquitectura del trabajo realizado.
+El desarrollo reúne la web pública y la aplicación de turnos. Finalmente no llegó a ponerse en servidor por un motivo externo al proyecto.
 
-## Decisiones y alcance
+## Video
 
-- [Arquitectura simplificada](docs/arquitectura.md)
-- [Decisiones técnicas seleccionadas](docs/decisiones-tecnicas.md)
-- [Qué demuestra el material y qué queda fuera](docs/alcance-evidencia.md)
+[![Reproducir el video](assets/poster.webp)](assets/recorrido.mp4)
 
-<details>
-<summary>Más capturas del proyecto</summary>
+[Ver o descargar el video MP4 · 21 s](assets/recorrido.mp4)
 
-**Propuesta del negocio**
+## Más capturas
 
-![Propuesta del negocio](assets/02-propuesta.webp)
+**Propuesta de la barbería**
+
+![Propuesta de la barbería](assets/02-propuesta.webp)
 
 **Productos**
 
 ![Productos](assets/03-productos.webp)
 
-</details>
+## Documentación técnica
 
-## Disponibilidad del código
-
-Este repositorio contiene documentación y material audiovisual del caso. El código fuente de la aplicación se mantiene privado. Los diagramas son explicaciones simplificadas, no instrucciones de despliegue ni una distribución del sistema.
+- [Arquitectura](docs/arquitectura.md)
+- [Decisiones técnicas](docs/decisiones-tecnicas.md)
 
 ## Contacto
 
-[Agustin Crudo · Ingenia Software](https://github.com/IngeniaSoftwareok) · [Portfolio](https://ingeniasoftwareok.github.io/portfolio/) · [Web profesional](https://ingenia-software.com.ar/) · [Email](mailto:ingeniasoftwareok@gmail.com)
+[Portfolio](https://ingeniasoftwareok.github.io/portfolio/) · [Ingenia Software](https://ingenia-software.com.ar/) · [Email](mailto:ingeniasoftwareok@gmail.com)

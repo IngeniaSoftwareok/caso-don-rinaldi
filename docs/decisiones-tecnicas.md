@@ -1,17 +1,17 @@
-# Decisiones seleccionadas
+# Decisiones técnicas
 
-## Separar presentación y datos
+## Separar presentación y operaciones
 
-Next.js compone la experiencia de navegación y consume la API. La persistencia queda detrás del backend; no se conecta la interfaz pública directamente con la base.
+Usé Next.js para la web y una API para procesar las operaciones. De esta manera, las reglas de turnos y el acceso a los datos quedan concentrados en el backend.
 
-## Revalidar disponibilidad
+## Volver a comprobar la disponibilidad
 
-Un horario mostrado puede quedar ocupado antes de confirmar una reserva. La implementación revisada vuelve a comprobar la disponibilidad y contempla conflictos e identificación de solicitudes para manejar reintentos.
+Entre consultar un horario y confirmar una reserva, otra persona puede ocupar ese turno. La confirmación vuelve a validar la disponibilidad y maneja ese conflicto.
 
-## Usar contratos compartidos
+## Reconocer solicitudes repetidas
 
-El monorepo conserva contratos y reglas en paquetes separados. Esto ayuda a mantener coherencia entre las aplicaciones sin duplicar las definiciones de cada lado.
+La aplicación identifica las solicitudes de reserva para manejar reintentos sin crear una segunda reserva por el mismo envío.
 
-## Separar implementación y uso productivo
+## Compartir contratos en el monorepo
 
-El proyecto fue un trabajo para cliente, pero no se puso en servidor. Las capturas y el video muestran la experiencia visual construida; no acreditan reservas ni pagos reales. No se presenta el catálogo visual como un checkout comercial activo.
+Mantuve los contratos y las reglas comunes en paquetes compartidos. Así, los cambios de tipos e interfaces se pueden aplicar de forma coherente en el frontend y en la API.

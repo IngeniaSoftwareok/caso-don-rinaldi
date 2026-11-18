@@ -56,4 +56,4 @@ El desarrollo reúne la web pública y la aplicación de turnos. Finalmente no l
 
 ## Contacto
 
-[Portfolio](https://ingeniasoftwareok.github.io/portfolio/) · [Ingenia Software](https://ingenia-software.com.ar/) · [Email](mailto:ingeniasoftwareok@gmail.com)
+[Portfolio](https://ingeniasoftwareok.github.io/portfolio/) · [Servicios de Ingenia](https://ingenia-software.com.ar/) · [Contacto personal](mailto:agustincrudo01@gmail.com)
